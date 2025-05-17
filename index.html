@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Web VLC Media Player</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="titlebar">
+            <img src="VLC_icon.png" alt="">
+            <h1>VLC media player</h1>
+        </div>
+
+        <div class="menu-bar">
+            <div class="menu">
+                <div class="menu-btn" id="openBtn">Open</div>
+                <input class="mediaBtn" type="file">
+            </div>
+            <div class="menu">
+                <div class="menu-btn playback">Playback</div>
+                <div class="menu-items playbackList">
+                    <li id="speedup">Speedup</li>
+                    <li id="speeddown">speeddown</li>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="menu-btn">Audio</div>
+                <div class="menu-items">
+                    <li id="volumeup">Volume up</li>
+                    <li id="volumedown">Volume Down</li>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <video width="auto" height="100%"></video>
+    </main>
+
+    <footer>
+        <button id="playBtn"><i class="fa-solid fa-play"></i></button>
+        <button id="pauseBtn"><i class="fa-solid fa-pause"></i></button>
+        <button id="stopBtn"><i class="fa-solid fa-stop"></i></button>
+        <button id="rewindBtn"> <i class="fa-solid fa-backward"></i></button>
+        <button id="forwardBtn"><i class="fa-solid fa-forward"></i></button>
+        <button id="muteBtn"><i class="fa-solid fa-volume-xmark"></i></button>
+        <button id="fullscreenBtn"><i class="fa-solid fa-expand"></i></i></button>
+    </footer>
+
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>

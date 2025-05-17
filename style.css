@@ -1,0 +1,94 @@
+
+header{
+  /* outline: 5px solid red; */
+  height: 4rem;
+  /* background-color: aquamarine; */
+}
+
+.titlebar{
+  height: 50%;
+  /* border: 2px solid blue; */
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: .5rem;
+}
+
+.menu-bar{
+  height: 50%;
+  /* border: 2px solid black; */
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-left: .5rem;
+  font-weight: 500;
+
+}
+
+.menu-btn{
+  background-color: rgb(243, 242, 241);
+  border-radius: 5px;
+}
+
+.titlebar img{
+  height: 70%;
+}
+.titlebar h1{
+  font-size: 1rem;
+}
+
+footer{
+  height: 3rem;
+  /* background-color: bisque; */
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+footer button{
+  border-radius: 9px;
+  text-align: center;
+  height: 2rem;
+  width: 2.5rem;
+  background-color: rgb(235, 234, 234); 
+}
+
+footer button i{
+  text-align: center;
+  /* background-color: blue; */
+}
+
+
+main{
+  height: calc(100vh - 8rem);
+  background-color: black;
+  display: flex;                /* enables flexbox */
+  justify-content: center;      /* centers horizontally */
+  align-items: center;  
+  width: 100%;
+  overflow: hidden;
+}
+.menu{
+  position: relative;
+}
+
+.menu-items{
+  position: absolute;
+  background-color: rgb(252, 252, 252);
+  width: 100px;
+  display: none;
+}
+.menu:hover .menu-items{
+  display: block;
+}
+
+.menu-items li:hover {
+  color: rgb(95, 95, 95);
+}
+
+.mediaBtn{
+  display: none;
+}
+

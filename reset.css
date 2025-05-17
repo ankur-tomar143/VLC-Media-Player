@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif
+}
+
+li {
+  
+  list-style: none;
+}
+ul {
+  padding: 0px;
+}
